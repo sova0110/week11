@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/cart.css" />
+    <link rel="stylesheet" href="assets/skeleton.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <title>Корзина</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Корзина
+        </h1>
+        <section class="goods">
+            <div class="card">
+                <img src="./assets/images/book1.png" class="book_img" alt="book_img1" />
+                <div class="description">
+                    <h2> Ветер знает мое имя</h2>
+                    <h3> Автор: Исабль Альенде</h3>
+                    <p>Год издания: 2024</p>
+                    <p>Жанр: Роман</p>
+                </div>
+                <div class="price">
+                    <p>Стоимость, руб.:</p>
+                    <p id="price1" class="price_book">1500</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/book2.png" class="book_img" alt="book_img2" />
+                <div class="description">
+                    <h2> Красная карма</h2>
+                    <h3> Автор: Жан-Кристофер Гранже</h3>
+                    <p>Год издания: 2024</p>
+                    <p>Жанр: Триллер</p>
+                </div>
+                <div class="price">
+                    <p>Стоимость, руб.:</p>
+                    <p id="price2" class="price_book">900</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/book3.png" class="book_img" alt="book_img3" />
+                <div class="description">
+                    <h2> Иллюзия</h2>
+                    <h3> Автор: Максим Шаттам</h3>
+                    <p>Год издания: 2024</p>
+                    <p>Жанр: Триллер</p>
+                </div>
+                <div class="price">
+                    <p>Стоимость, руб.:</p>
+                    <p id="price3" class="price_book">890</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/book4.png" class="book_img" alt="book_img4" />
+                <div class="description">
+                    <h2> Сладкая соль Босфора</h2>
+                    <h3> Автор: Элчин Сафарли</h3>
+                    <p>Год издания: 2024</p>
+                    <p>Жанр: Роман</p>
+                </div>
+                <div class="price">
+                    <p>Стоимость, руб.:</p>
+                    <p id="price4" class="price_book">780</p>
+                </div>
+            </div>
+            <div class="total_price">
+                <button class='button_cart' id="button_id">Применить купон на 20%</button>
+                <p>Итого: <span class="total" id="total_sum"></span> </p>
+            </div>
+
+        </section>
+
+    </div>
+    <script src="cart.js"></script> 
+</body>
+</html>

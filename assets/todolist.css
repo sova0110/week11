@@ -1,0 +1,40 @@
+.selected {
+    text-decoration: line-through;
+    color:grey;
+  }
+
+li {
+    cursor: pointer;
+  }
+
+body{
+  background-color: rgb(198, 236, 223);
+}
+
+h1{
+  text-align: center;
+
+}
+.container{
+  display: block;
+  
+}
+.todo-add{
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.field{
+  justify-self: center;
+  width: 30vw;
+  margin-right: 30px;
+
+}
+.add_task{
+  background-color: greenyellow;
+  border: green solid 1px;
+  color:darkgreen;
+  font-weight: 700;
+}
